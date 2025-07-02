@@ -1,0 +1,630 @@
+[
+  {
+    "timestamp": "2025-07-02T14:23:24.508421",
+    "url": "https://gql.tokopedia.com/graphql/NotificationQuery",
+    "method": "POST",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "x-tkpd-lite-service": "phoenix",
+      "x-version": "65007bb",
+      "bd-device-id": "7521226608729015809",
+      "x-price-center": "true",
+      "content-type": "application/json",
+      "x-source": "tokopedia-lite",
+      "content-length": "1268",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQ1zQKcskOVMKXAQAAecwEyg781t4CrXQfDNm+SzrsbO1YbswMYA76TM2aWQK/usn2Uyct6BJwWPmugHlk5ebLl0gHJW7Ioy6ed9VRCwUlpT/pp2HVrsGfnDgm3cO2y+vywMoqEv+zo7g92NXAY4cGeHEKvl7u1zujCunWYpYZ6zskeK8HN2dKURJtSqtlD+dQ0zwsoq7/M4gbEq3EC+aqcbRUko1ytvW729Sye82/5MWWHuvxyTE7v6LrMBteXSimUa+Z5fAFxgQYXjoG/8wKm+d526vMSYDFmWMpRn3Ja9sEZfdzd3xmYp2JNjJwQXLX0o3bUhgYtonMBnPb5jlsi7S40+JSjjnjDjqo1fhdoDwqxNUK9gontHe5jIGc9libB0FZfRandt0IXFf7FfQuI51joHNzcqCEAp7/PwwZUd6joXlCjnudnTMkndzX8CwTVs1Gs8nclUFvzkDDPlOF8UiZRS9uBJVMxkOyXEypSNFURIX3AjBov8rjKV4XOYz8NWHdQ8i3Zj0NrF9K+AjRXi556ppNs4egdB8bZbTfkXXZUfHFyvHUckXY9BmIdBClb+3eIxzrL3iLvW1Xkifr5Ka00n/+24KLEVQt8rwGUAZUi5Ft3TOxu1WMMqlIcv5+bWU3UYbAQ0YqvQNnCYmjgB7bLWMGGw6gBESHQhYSijStHfk758/ggf/ppdzn5aWz5R7Cf6lAJpZahm8tQ4HkF02gqSdDgoau0AECD3JPcZaV2p1aDG+97W2BYp5RkFfxAUy/xu6tbiLcN5cYmDX8CVcquyJb8XyGrDS4KlKD+OO8fzo5YVQam1Lg9Bc7p5o4JqyuOCoWHk1BUa2hT8J+okyl5Tu5DHCf44bDxuUuwLz9G0+YXE0DUixqIvrmKZjjG3VFov87pN79Cvp2cjPK6d63vq8lOQ1cJ77eoJsV8rEZu6ZNe3UFK1Rs+5IAfUQUWi7mc0RwlSESu/85xYUmAMeyHO4T/G/9YdNbsu2U4juWJs4wZNI/L12jp2QfNdCN+jvfAPEal7HuxDo9AiDp/qAfCCu09lZYIMVhA2aJ3fzAhIdiunonB4E/+DWz/KWIznVLFvsrBkVhs7K0GZ/GIuU6oejJTgCOECvysTfQE2x/Bg7M+22FYneWfA4J0I0aLUSoqC5KbgfBeVBxnrZ3q1yvA9IzQTyiMOtxffvofIjVPiazkZSBZnEqZI2cqDud~-1~||0||~-1; _SID_Tokopedia_=_EQEttYkjcYdBBD4957jobb_eEF7BF0sLlLKlyZu4gnuEH2uyAATpDZXWNUt_GMt-jwuxBoi1RuNsqvH0pIsDzRMv2iHlk0fO8t7kRJ8-91EsjbfsdKQj8CBLp2uIBj8; DID=9b03438f709b8aa2d55b7ff45d2ea6b52639e7411310652709d90520d6014400b9f558f8915429b5e76537a0e0702b55; DID_JS=OWIwMzQzOGY3MDliOGFhMmQ1NWI3ZmY0NWQyZWE2YjUyNjM5ZTc0MTEzMTA2NTI3MDlkOTA1MjBkNjAxNDQwMGI5ZjU1OGY4OTE1NDI5YjVlNzY1MzdhMGUwNzAyYjU147DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; _gcl_gs=2.1.k1$i1751172039$u214926738; _gcl_au=1.1.1050268943.1751172042; ISID=%7B%22www.tokopedia.com%22%3A%22d3d3LnRva29wZWRpYS5jb20%3D.832234b64aeaa48a1a08c823c711ad1d.1751172042552.1751172042552.1751441003142.140%22%7D; _ga_70947XW48P=GS2.1.s1751440998$o8$g0$t1751441000$j58$l0$h0; _ga=GA1.2.1859209012.1751172044; l=1; tuid=253866383; gec_id=1090347812538826432; _UUID_NONLOGIN_=2e8943a7e8088b5009d28ddb18b38e76; _UUID_NONLOGIN_.sig=sMuUi1MQAV2FiIvcEwb2TtKiysQ; aus=1; webauthn-session=7b1c5af9-3956-49a1-8bde-f949329dea1d; _CASE_=237a39113c7a627a6a6a6f6d6969606b617a747a3b113c7a62696c69747a3c113c7a62696d6b68747a340d283c7a627a6a686a6d75686f75686a0c6969626b6d62686d73686f6268687a747a34392c7a627a756e766b6a616f6d68686a6a6d686d6f606f7a747a343a347a627a0a2d353930783e3d2a3c317a747a3437363f7a627a69686e766b616d6c6d6061696c6b6b616d6c7a747a281b377a627a6c6a6b60697a747a2b113c7a627a7a747a2b0c21283d7a627a37373b7a747a2f113c7a627a7a747a2f302b2b7a627a03057a25; _UUID_CAS_=933a5372-8394-49f6-a039-100cf3b885a2; _tt_enable_cookie=1; _ttp=01JYWZX68AJB0YF6YM7VWJS486_.tt.1; ttcsid_CPTR1KRC77UF05LN2NAG=1751172159757::yAvzH3URjEpI0V6cdtPT.1.1751184144332; ttcsid=1751172159757::x0gsY56tCM2SbXySikU1.1.1751184144020; _fbp=fb.1.1751172342391.765884947522128461; FPF=1; shipping_notif=0; bm_sz=A43B43B3EFA0A80BF6C43946CE84EA4D~YAAQ1zQKcrAOVMKXAQAAssUEyhyyuxKTEX1p1drAqRR05NFEm7Oc0uCyZpUmwa7eLY26NJ6LCSOIo/9WeLjoIT5TocPAR4P4rgm4uz2ZTLjfGDKsSzwIYno6nlSgvZNkJ2ldsP0ic9deEix+rkuU3AsEB/e1RDy/X/x8EGCXEyjLDP6h/VzxLzF2VOXo9qlcLSCZ2ILqUZbaagY6c8auPvH1nqsQgaTBq/ju4waim25fUKjEErh+jMZy0ONX6bjo/6l5vcdC058yqndhFkhnZ5x/CNDTVK5EYvTwcVdCk849g6mjOwLIqc9SyJpzTFIBLoG57VIZvuNPZXIOoFx4c4hzrXW7q4dAU3VRTc0wIZt6YnUqVpRIhQgrKSCt+eQ+orGHzkYFL8073ElFdchpGdZLlBxM9F8RkThT3q+8gn6w+E/ABVwMq1qUZCYV9fbzhDjU3PjYqI1soSwd+SsV/5BKbaQf7JNAbeadKjmPsMunlWrGASB707WRa9mfkqVDg7s3D71QW+zCFLu9zVqMMljyPaALij2FB92JNNCOf6shJQ==~3424566~3163203; _gid=GA1.2.1415773262.1751427311; inbox_version=%22v2%22; _gat_gtag_UA_9801603_6=1; AMP_TOKEN=%24NOT_FOUND; uidh=dGitTOVliRPRTD7hJZYQNA4ZubOJrjSa/cPvm3Oa7eU=; uide=BzluLa46PDjeRgabQ9KnMBGfJVVMuXyRcbjhQNatw8NXaA1h5w==; _dc_gtm_UA-126956641-6=1; _dc_gtm_UA-9801603-6=1; ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQ1zQKctIOVMKXAQAA59MEyhz/potRBU8hix7a48hAmqElGJbgPTh5uxWFDoqwl/dRw4v7X4lv+FtJGH7osTt3cibTTyyWMxDa+BVB5cxrK+d6UY1NBX+LM6ou+pF8F+M586nQe3NMrEWxtUm+fejB0Dn6TirGgwUpyhyZjJQW+c4fmMJBPX9txmY4qXNK4l8EKllnfm5qUtWqZXIA3SVzksAGX5QYDT03MXIr594A/TJ2GegvZ5bUDBat3RVgnhCJp1VgLPs7qGS8oYaQErvBKPSAcmswh2Kc2VIE6Ur3wlS2QHWJHbFadtpCY3gTcaPf1imOSvXBV1xnjLSQSYzqTgz8PPZlMvMFjAJQjS+I5o+gvdsx6MIDfIA+pQUlSieSkQpmcg1imdeG0tqiiqwS4c3eG09TunjsYfMzr1RVt8VbkMRxx5ll430Z0UzpNmS6SPLFK296cbQ/x0iC3nGKkhOGJ1sfd5FE5i4Pg73W5SCb62w4Ma+MDJA/JoSo/LfFNs1dGemf/h6wgFbq9LOriUrZS94E2VeD9eHfcEGMU49Ld3ud4Le4zdsW/3xyDQuUoIguDQ==; bm_mi=FC3F671A48C9ABA8268EFFF7E57EDD6F~YAAQ1zQKcq8OVMKXAQAAssUEyhyQb5dSq2CU2iEdDRKnMsfzpxhTzhi2lXNeAEkSOk/rkLkxipaK6syqUpUpQHtD5mUnmdJc5fzVFcIJc9F/YgGKbzTX51KxrIezZO5SFj5Hej/IznamG3PLWxr6U5ldhGL6x9O5twz7D6heU+fVJpOBKF7Za56cLFKEAez/IwIbgPuUY/1ybUhCTjEatziLLHbEUSaMfGRSVhCyM/vv9DdqWXVSEODNjvD7Jxd+eD+RE4/LG1A1wVkxDub5snvcCkw1qklHUP9aKkUV5KCG+jxZBBiSBUzKtKj+8eM+67kZVAdVFJUza3DQrS+e2wtixU+FU9OZMMCXcyp8htQEt4c=~1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "post_data": "[{\"operationName\":\"NotificationQuery\",\"variables\":{\"params\":{\"ext_param\":\"\"}},\"query\":\"query NotificationQuery($params: NotificationRequest) {\\n  notifications(input: $params) {\\n    total_cart\\n    inbox {\\n      inbox_talk\\n      inbox_ticket\\n      inbox_review\\n      inbox_friend\\n      inbox_message\\n      inbox_wishlist\\n      inbox_reputation\\n      __typename\\n    }\\n    inbox_counter {\\n      buyer {\\n        total_int\\n        talk_int\\n        notifcenter_int\\n        review_int\\n        __typename\\n      }\\n      __typename\\n    }\\n    chat {\\n      unreadsUser\\n      __typename\\n    }\\n    seller_info_notif {\\n      notification\\n      __typename\\n    }\\n    buyerOrderStatus {\\n      paymentStatus\\n      confirmed\\n      processed\\n      shipped\\n      arriveAtDestination\\n      __typename\\n    }\\n    sellerOrderStatus {\\n      newOrder\\n      readyToShip\\n      shipped\\n      arriveAtDestination\\n      inResolution\\n      __typename\\n    }\\n    notifcenter_unread {\\n      notif_unread_int\\n      __typename\\n    }\\n    notifcenter_trx_unread {\\n      notif_unread_int\\n      __typename\\n    }\\n    is_tab_update\\n    resolution_as {\\n      resolution_as_buyer\\n      resolution_as_seller\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}]",
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "280.06",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "content-encoding": "gzip",
+      "content-length": "391",
+      "date": "Wed, 02 Jul 2025 07:23:24 GMT",
+      "vary": "Accept-Encoding",
+      "set-cookie": "ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQrlA7FzgCP8WXAQAADtYEyhz2WeA4Cj1hjFuC3MQ2XYfRr0tZ5khvngGLJq7u1+tv6C6RqHsHo+Wqg/RdgD8f+VZbQs+8TFok4XIL3m9txSl9ny4i+4VpLPs0k9Eofvv+G3RGQZr6L8JmyYwfhec98I64kgWK8iJzjLY20Wpk3z4119pcs1a1JY4u8ujlyPngRCKMkBO2A6MPzbkbJ1cNMYcI1UVlVrVhv6/jUr25CgWAGx442v9Q152As9q7gOCrVK8e4PkpMJDFwiBFRlpbVIC60DFZRVJUnjYFIPcwErPDRjQ5ZrYyqvIijDS4N+OxAINytrgqqRJZBc62tBsESH+eQUqqQaSyGc+GLh28Iof/sNIAH0O6z/Xp5pPca0SL+79FAHRFGCQr+JvQOCNC0P3lnx5EvOJ1fqSKSFiBz+nNSLoZBcOnZO5z/M95g6qPUoFyz1fDM5spQqxFT2Woq2+GjFVksWXZJKxy4WlJGpDIY1r8Xnk8A1ZA3Dy9fVAw1Z86Ae2Y94Po3t2S/qvLmo3QJQD1AOx4+GG7hDaXy/DnxK8eT/wri33n9xIh; Domain=.tokopedia.com; Path=/; Expires=Wed, 02 Jul 2025 09:23:17 GMT; Max-Age=7193",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "notifications": {
+            "total_cart": 3,
+            "inbox": {
+              "inbox_talk": 0,
+              "inbox_ticket": 0,
+              "inbox_review": 0,
+              "inbox_friend": 0,
+              "inbox_message": 0,
+              "inbox_wishlist": 0,
+              "inbox_reputation": 0,
+              "__typename": "NotificationsInbox"
+            },
+            "inbox_counter": {
+              "buyer": {
+                "total_int": 0,
+                "talk_int": 0,
+                "notifcenter_int": 0,
+                "review_int": 0,
+                "__typename": "CounterDetail"
+              },
+              "__typename": "NotificationInboxCounter"
+            },
+            "chat": {
+              "unreadsUser": 0,
+              "__typename": "TopChatNotifications"
+            },
+            "seller_info_notif": {
+              "notification": 0,
+              "__typename": "SellerInfoNotifications"
+            },
+            "buyerOrderStatus": {
+              "paymentStatus": 0,
+              "confirmed": 0,
+              "processed": 0,
+              "shipped": 0,
+              "arriveAtDestination": 0,
+              "__typename": "NotifyBuyerOrderStatus"
+            },
+            "sellerOrderStatus": {
+              "newOrder": 0,
+              "readyToShip": 0,
+              "shipped": 0,
+              "arriveAtDestination": 0,
+              "inResolution": 0,
+              "__typename": "NotifySellerOrderStatus"
+            },
+            "notifcenter_unread": {
+              "notif_unread_int": 0,
+              "__typename": "NotificationUnread"
+            },
+            "notifcenter_trx_unread": {
+              "notif_unread_int": 0,
+              "__typename": "NotificationUnread"
+            },
+            "is_tab_update": false,
+            "resolution_as": {
+              "resolution_as_buyer": 0,
+              "resolution_as_seller": 0,
+              "__typename": "NotificationResolution"
+            },
+            "__typename": "Notification"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:23:24.562041",
+    "url": "https://gql.tokopedia.com/graphql/DynamicPlaceholderQuery",
+    "method": "POST",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "x-tkpd-lite-service": "phoenix",
+      "x-version": "65007bb",
+      "bd-device-id": "7521226608729015809",
+      "x-price-center": "true",
+      "content-type": "application/json",
+      "x-device": "mobile",
+      "x-source": "tokopedia-lite",
+      "content-length": "422",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQ1zQKcskOVMKXAQAAecwEyg781t4CrXQfDNm+SzrsbO1YbswMYA76TM2aWQK/usn2Uyct6BJwWPmugHlk5ebLl0gHJW7Ioy6ed9VRCwUlpT/pp2HVrsGfnDgm3cO2y+vywMoqEv+zo7g92NXAY4cGeHEKvl7u1zujCunWYpYZ6zskeK8HN2dKURJtSqtlD+dQ0zwsoq7/M4gbEq3EC+aqcbRUko1ytvW729Sye82/5MWWHuvxyTE7v6LrMBteXSimUa+Z5fAFxgQYXjoG/8wKm+d526vMSYDFmWMpRn3Ja9sEZfdzd3xmYp2JNjJwQXLX0o3bUhgYtonMBnPb5jlsi7S40+JSjjnjDjqo1fhdoDwqxNUK9gontHe5jIGc9libB0FZfRandt0IXFf7FfQuI51joHNzcqCEAp7/PwwZUd6joXlCjnudnTMkndzX8CwTVs1Gs8nclUFvzkDDPlOF8UiZRS9uBJVMxkOyXEypSNFURIX3AjBov8rjKV4XOYz8NWHdQ8i3Zj0NrF9K+AjRXi556ppNs4egdB8bZbTfkXXZUfHFyvHUckXY9BmIdBClb+3eIxzrL3iLvW1Xkifr5Ka00n/+24KLEVQt8rwGUAZUi5Ft3TOxu1WMMqlIcv5+bWU3UYbAQ0YqvQNnCYmjgB7bLWMGGw6gBESHQhYSijStHfk758/ggf/ppdzn5aWz5R7Cf6lAJpZahm8tQ4HkF02gqSdDgoau0AECD3JPcZaV2p1aDG+97W2BYp5RkFfxAUy/xu6tbiLcN5cYmDX8CVcquyJb8XyGrDS4KlKD+OO8fzo5YVQam1Lg9Bc7p5o4JqyuOCoWHk1BUa2hT8J+okyl5Tu5DHCf44bDxuUuwLz9G0+YXE0DUixqIvrmKZjjG3VFov87pN79Cvp2cjPK6d63vq8lOQ1cJ77eoJsV8rEZu6ZNe3UFK1Rs+5IAfUQUWi7mc0RwlSESu/85xYUmAMeyHO4T/G/9YdNbsu2U4juWJs4wZNI/L12jp2QfNdCN+jvfAPEal7HuxDo9AiDp/qAfCCu09lZYIMVhA2aJ3fzAhIdiunonB4E/+DWz/KWIznVLFvsrBkVhs7K0GZ/GIuU6oejJTgCOECvysTfQE2x/Bg7M+22FYneWfA4J0I0aLUSoqC5KbgfBeVBxnrZ3q1yvA9IzQTyiMOtxffvofIjVPiazkZSBZnEqZI2cqDud~-1~||0||~-1; _SID_Tokopedia_=_EQEttYkjcYdBBD4957jobb_eEF7BF0sLlLKlyZu4gnuEH2uyAATpDZXWNUt_GMt-jwuxBoi1RuNsqvH0pIsDzRMv2iHlk0fO8t7kRJ8-91EsjbfsdKQj8CBLp2uIBj8; DID=9b03438f709b8aa2d55b7ff45d2ea6b52639e7411310652709d90520d6014400b9f558f8915429b5e76537a0e0702b55; DID_JS=OWIwMzQzOGY3MDliOGFhMmQ1NWI3ZmY0NWQyZWE2YjUyNjM5ZTc0MTEzMTA2NTI3MDlkOTA1MjBkNjAxNDQwMGI5ZjU1OGY4OTE1NDI5YjVlNzY1MzdhMGUwNzAyYjU147DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; _gcl_gs=2.1.k1$i1751172039$u214926738; _gcl_au=1.1.1050268943.1751172042; ISID=%7B%22www.tokopedia.com%22%3A%22d3d3LnRva29wZWRpYS5jb20%3D.832234b64aeaa48a1a08c823c711ad1d.1751172042552.1751172042552.1751441003142.140%22%7D; _ga_70947XW48P=GS2.1.s1751440998$o8$g0$t1751441000$j58$l0$h0; _ga=GA1.2.1859209012.1751172044; l=1; tuid=253866383; gec_id=1090347812538826432; _UUID_NONLOGIN_=2e8943a7e8088b5009d28ddb18b38e76; _UUID_NONLOGIN_.sig=sMuUi1MQAV2FiIvcEwb2TtKiysQ; aus=1; webauthn-session=7b1c5af9-3956-49a1-8bde-f949329dea1d; _CASE_=237a39113c7a627a6a6a6f6d6969606b617a747a3b113c7a62696c69747a3c113c7a62696d6b68747a340d283c7a627a6a686a6d75686f75686a0c6969626b6d62686d73686f6268687a747a34392c7a627a756e766b6a616f6d68686a6a6d686d6f606f7a747a343a347a627a0a2d353930783e3d2a3c317a747a3437363f7a627a69686e766b616d6c6d6061696c6b6b616d6c7a747a281b377a627a6c6a6b60697a747a2b113c7a627a7a747a2b0c21283d7a627a37373b7a747a2f113c7a627a7a747a2f302b2b7a627a03057a25; _UUID_CAS_=933a5372-8394-49f6-a039-100cf3b885a2; _tt_enable_cookie=1; _ttp=01JYWZX68AJB0YF6YM7VWJS486_.tt.1; ttcsid_CPTR1KRC77UF05LN2NAG=1751172159757::yAvzH3URjEpI0V6cdtPT.1.1751184144332; ttcsid=1751172159757::x0gsY56tCM2SbXySikU1.1.1751184144020; _fbp=fb.1.1751172342391.765884947522128461; FPF=1; shipping_notif=0; bm_sz=A43B43B3EFA0A80BF6C43946CE84EA4D~YAAQ1zQKcrAOVMKXAQAAssUEyhyyuxKTEX1p1drAqRR05NFEm7Oc0uCyZpUmwa7eLY26NJ6LCSOIo/9WeLjoIT5TocPAR4P4rgm4uz2ZTLjfGDKsSzwIYno6nlSgvZNkJ2ldsP0ic9deEix+rkuU3AsEB/e1RDy/X/x8EGCXEyjLDP6h/VzxLzF2VOXo9qlcLSCZ2ILqUZbaagY6c8auPvH1nqsQgaTBq/ju4waim25fUKjEErh+jMZy0ONX6bjo/6l5vcdC058yqndhFkhnZ5x/CNDTVK5EYvTwcVdCk849g6mjOwLIqc9SyJpzTFIBLoG57VIZvuNPZXIOoFx4c4hzrXW7q4dAU3VRTc0wIZt6YnUqVpRIhQgrKSCt+eQ+orGHzkYFL8073ElFdchpGdZLlBxM9F8RkThT3q+8gn6w+E/ABVwMq1qUZCYV9fbzhDjU3PjYqI1soSwd+SsV/5BKbaQf7JNAbeadKjmPsMunlWrGASB707WRa9mfkqVDg7s3D71QW+zCFLu9zVqMMljyPaALij2FB92JNNCOf6shJQ==~3424566~3163203; _gid=GA1.2.1415773262.1751427311; inbox_version=%22v2%22; _gat_gtag_UA_9801603_6=1; AMP_TOKEN=%24NOT_FOUND; uidh=dGitTOVliRPRTD7hJZYQNA4ZubOJrjSa/cPvm3Oa7eU=; uide=BzluLa46PDjeRgabQ9KnMBGfJVVMuXyRcbjhQNatw8NXaA1h5w==; _dc_gtm_UA-126956641-6=1; _dc_gtm_UA-9801603-6=1; ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQ1zQKctIOVMKXAQAA59MEyhz/potRBU8hix7a48hAmqElGJbgPTh5uxWFDoqwl/dRw4v7X4lv+FtJGH7osTt3cibTTyyWMxDa+BVB5cxrK+d6UY1NBX+LM6ou+pF8F+M586nQe3NMrEWxtUm+fejB0Dn6TirGgwUpyhyZjJQW+c4fmMJBPX9txmY4qXNK4l8EKllnfm5qUtWqZXIA3SVzksAGX5QYDT03MXIr594A/TJ2GegvZ5bUDBat3RVgnhCJp1VgLPs7qGS8oYaQErvBKPSAcmswh2Kc2VIE6Ur3wlS2QHWJHbFadtpCY3gTcaPf1imOSvXBV1xnjLSQSYzqTgz8PPZlMvMFjAJQjS+I5o+gvdsx6MIDfIA+pQUlSieSkQpmcg1imdeG0tqiiqwS4c3eG09TunjsYfMzr1RVt8VbkMRxx5ll430Z0UzpNmS6SPLFK296cbQ/x0iC3nGKkhOGJ1sfd5FE5i4Pg73W5SCb62w4Ma+MDJA/JoSo/LfFNs1dGemf/h6wgFbq9LOriUrZS94E2VeD9eHfcEGMU49Ld3ud4Le4zdsW/3xyDQuUoIguDQ==; bm_mi=FC3F671A48C9ABA8268EFFF7E57EDD6F~YAAQ1zQKcq8OVMKXAQAAssUEyhyQb5dSq2CU2iEdDRKnMsfzpxhTzhi2lXNeAEkSOk/rkLkxipaK6syqUpUpQHtD5mUnmdJc5fzVFcIJc9F/YgGKbzTX51KxrIezZO5SFj5Hej/IznamG3PLWxr6U5ldhGL6x9O5twz7D6heU+fVJpOBKF7Za56cLFKEAez/IwIbgPuUY/1ybUhCTjEatziLLHbEUSaMfGRSVhCyM/vv9DdqWXVSEODNjvD7Jxd+eD+RE4/LG1A1wVkxDub5snvcCkw1qklHUP9aKkUV5KCG+jxZBBiSBUzKtKj+8eM+67kZVAdVFJUza3DQrS+e2wtixU+FU9OZMMCXcyp8htQEt4c=~1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "post_data": "[{\"operationName\":\"DynamicPlaceholderQuery\",\"variables\":{\"navsource\":\"\",\"unique_id\":\"df455067a6fd9cfcce3cea1a1ed243a9\"},\"query\":\"query DynamicPlaceholderQuery($navsource: String!, $unique_id: String) {\\n  universe_placeholder(navsource: $navsource, unique_id: $unique_id) {\\n    data {\\n      keyword\\n      placeholder\\n      group_id\\n      impr_id\\n      words_source\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}]",
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "content-length": "214",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "12.53",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "date": "Wed, 02 Jul 2025 07:23:23 GMT",
+      "set-cookie": "ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQrlA7FzACP8WXAQAAgdUEyhxHRoiJxe87pZ4XkThIOw2kVvsYb319jQVLHoqEPMFOVpim1b/Mz7NBUT028SDw8s9lvQZFZlGvetrN09Rb5FTcDL0ic++tcJEwDdlKLVnlsHYh9dYMWU3Kza0aEqV/svqOdB+iL3jvzrH+Rekh3MgECUzjUS5+P/5CeSma4qHqAyJ3HNtio639Aq/Xvxp2s23RRoK9a8ej5LW6yHZXWcJ2rdFoqar8F80mxlyTjCxHM10aq2FH4oW63897Jkh9eQzgX+wZB1eUsl3mjIlaC/77nlLvWf6lBg1LGWdbk4lezjEB39v9U3TgVq8E8lgLFIS3SEm2/Wt8jCIKFGRdV3GH4Km+YRAyhVgGlVwhkZjW5wxkXl2kUE39YAcItcLYINb/cZOpcqv6ldekR97j5KdPq7nkh5VFL8z9YlNYZHKpr9oaU7VsfDy+X1Xsv0a+3JuzZM3PoVa4bi4S+1VC5OUvp0Jkop5oXN5Xx1ZzwwqUIJPds6Pjx80kdv4XZumYZD3uG4JFvQoP3Xpd+Yhf8p90+ZzGPPL+Fi81vy6J; Domain=.tokopedia.com; Path=/; Expires=Wed, 02 Jul 2025 09:23:17 GMT; Max-Age=7194",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "universe_placeholder": {
+            "data": {
+              "keyword": "",
+              "placeholder": "Cari di Tokopedia",
+              "group_id": "",
+              "impr_id": "",
+              "words_source": "",
+              "__typename": "UniversePlaceholderResult"
+            },
+            "__typename": "UniversePlaceholder"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:23:25.858722",
+    "url": "https://gql.tokopedia.com/graphql/TCORollout",
+    "method": "POST",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "x-tkpd-lite-service": "phoenix",
+      "x-version": "65007bb",
+      "bd-device-id": "7521226608729015809",
+      "x-price-center": "true",
+      "content-type": "application/json",
+      "x-device": "lite-0.0",
+      "x-source": "tokopedia-lite",
+      "content-length": "244",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQ1zQKcskOVMKXAQAAecwEyg781t4CrXQfDNm+SzrsbO1YbswMYA76TM2aWQK/usn2Uyct6BJwWPmugHlk5ebLl0gHJW7Ioy6ed9VRCwUlpT/pp2HVrsGfnDgm3cO2y+vywMoqEv+zo7g92NXAY4cGeHEKvl7u1zujCunWYpYZ6zskeK8HN2dKURJtSqtlD+dQ0zwsoq7/M4gbEq3EC+aqcbRUko1ytvW729Sye82/5MWWHuvxyTE7v6LrMBteXSimUa+Z5fAFxgQYXjoG/8wKm+d526vMSYDFmWMpRn3Ja9sEZfdzd3xmYp2JNjJwQXLX0o3bUhgYtonMBnPb5jlsi7S40+JSjjnjDjqo1fhdoDwqxNUK9gontHe5jIGc9libB0FZfRandt0IXFf7FfQuI51joHNzcqCEAp7/PwwZUd6joXlCjnudnTMkndzX8CwTVs1Gs8nclUFvzkDDPlOF8UiZRS9uBJVMxkOyXEypSNFURIX3AjBov8rjKV4XOYz8NWHdQ8i3Zj0NrF9K+AjRXi556ppNs4egdB8bZbTfkXXZUfHFyvHUckXY9BmIdBClb+3eIxzrL3iLvW1Xkifr5Ka00n/+24KLEVQt8rwGUAZUi5Ft3TOxu1WMMqlIcv5+bWU3UYbAQ0YqvQNnCYmjgB7bLWMGGw6gBESHQhYSijStHfk758/ggf/ppdzn5aWz5R7Cf6lAJpZahm8tQ4HkF02gqSdDgoau0AECD3JPcZaV2p1aDG+97W2BYp5RkFfxAUy/xu6tbiLcN5cYmDX8CVcquyJb8XyGrDS4KlKD+OO8fzo5YVQam1Lg9Bc7p5o4JqyuOCoWHk1BUa2hT8J+okyl5Tu5DHCf44bDxuUuwLz9G0+YXE0DUixqIvrmKZjjG3VFov87pN79Cvp2cjPK6d63vq8lOQ1cJ77eoJsV8rEZu6ZNe3UFK1Rs+5IAfUQUWi7mc0RwlSESu/85xYUmAMeyHO4T/G/9YdNbsu2U4juWJs4wZNI/L12jp2QfNdCN+jvfAPEal7HuxDo9AiDp/qAfCCu09lZYIMVhA2aJ3fzAhIdiunonB4E/+DWz/KWIznVLFvsrBkVhs7K0GZ/GIuU6oejJTgCOECvysTfQE2x/Bg7M+22FYneWfA4J0I0aLUSoqC5KbgfBeVBxnrZ3q1yvA9IzQTyiMOtxffvofIjVPiazkZSBZnEqZI2cqDud~-1~||0||~-1; _SID_Tokopedia_=_EQEttYkjcYdBBD4957jobb_eEF7BF0sLlLKlyZu4gnuEH2uyAATpDZXWNUt_GMt-jwuxBoi1RuNsqvH0pIsDzRMv2iHlk0fO8t7kRJ8-91EsjbfsdKQj8CBLp2uIBj8; DID=9b03438f709b8aa2d55b7ff45d2ea6b52639e7411310652709d90520d6014400b9f558f8915429b5e76537a0e0702b55; DID_JS=OWIwMzQzOGY3MDliOGFhMmQ1NWI3ZmY0NWQyZWE2YjUyNjM5ZTc0MTEzMTA2NTI3MDlkOTA1MjBkNjAxNDQwMGI5ZjU1OGY4OTE1NDI5YjVlNzY1MzdhMGUwNzAyYjU147DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; _gcl_gs=2.1.k1$i1751172039$u214926738; _gcl_au=1.1.1050268943.1751172042; ISID=%7B%22www.tokopedia.com%22%3A%22d3d3LnRva29wZWRpYS5jb20%3D.832234b64aeaa48a1a08c823c711ad1d.1751172042552.1751172042552.1751441003142.140%22%7D; _ga_70947XW48P=GS2.1.s1751440998$o8$g0$t1751441000$j58$l0$h0; _ga=GA1.2.1859209012.1751172044; l=1; tuid=253866383; gec_id=1090347812538826432; _UUID_NONLOGIN_=2e8943a7e8088b5009d28ddb18b38e76; _UUID_NONLOGIN_.sig=sMuUi1MQAV2FiIvcEwb2TtKiysQ; aus=1; webauthn-session=7b1c5af9-3956-49a1-8bde-f949329dea1d; _CASE_=237a39113c7a627a6a6a6f6d6969606b617a747a3b113c7a62696c69747a3c113c7a62696d6b68747a340d283c7a627a6a686a6d75686f75686a0c6969626b6d62686d73686f6268687a747a34392c7a627a756e766b6a616f6d68686a6a6d686d6f606f7a747a343a347a627a0a2d353930783e3d2a3c317a747a3437363f7a627a69686e766b616d6c6d6061696c6b6b616d6c7a747a281b377a627a6c6a6b60697a747a2b113c7a627a7a747a2b0c21283d7a627a37373b7a747a2f113c7a627a7a747a2f302b2b7a627a03057a25; _UUID_CAS_=933a5372-8394-49f6-a039-100cf3b885a2; _tt_enable_cookie=1; _ttp=01JYWZX68AJB0YF6YM7VWJS486_.tt.1; ttcsid_CPTR1KRC77UF05LN2NAG=1751172159757::yAvzH3URjEpI0V6cdtPT.1.1751184144332; ttcsid=1751172159757::x0gsY56tCM2SbXySikU1.1.1751184144020; _fbp=fb.1.1751172342391.765884947522128461; FPF=1; shipping_notif=0; bm_sz=A43B43B3EFA0A80BF6C43946CE84EA4D~YAAQ1zQKcrAOVMKXAQAAssUEyhyyuxKTEX1p1drAqRR05NFEm7Oc0uCyZpUmwa7eLY26NJ6LCSOIo/9WeLjoIT5TocPAR4P4rgm4uz2ZTLjfGDKsSzwIYno6nlSgvZNkJ2ldsP0ic9deEix+rkuU3AsEB/e1RDy/X/x8EGCXEyjLDP6h/VzxLzF2VOXo9qlcLSCZ2ILqUZbaagY6c8auPvH1nqsQgaTBq/ju4waim25fUKjEErh+jMZy0ONX6bjo/6l5vcdC058yqndhFkhnZ5x/CNDTVK5EYvTwcVdCk849g6mjOwLIqc9SyJpzTFIBLoG57VIZvuNPZXIOoFx4c4hzrXW7q4dAU3VRTc0wIZt6YnUqVpRIhQgrKSCt+eQ+orGHzkYFL8073ElFdchpGdZLlBxM9F8RkThT3q+8gn6w+E/ABVwMq1qUZCYV9fbzhDjU3PjYqI1soSwd+SsV/5BKbaQf7JNAbeadKjmPsMunlWrGASB707WRa9mfkqVDg7s3D71QW+zCFLu9zVqMMljyPaALij2FB92JNNCOf6shJQ==~3424566~3163203; _gid=GA1.2.1415773262.1751427311; inbox_version=%22v2%22; _gat_gtag_UA_9801603_6=1; AMP_TOKEN=%24NOT_FOUND; uidh=dGitTOVliRPRTD7hJZYQNA4ZubOJrjSa/cPvm3Oa7eU=; uide=BzluLa46PDjeRgabQ9KnMBGfJVVMuXyRcbjhQNatw8NXaA1h5w==; _dc_gtm_UA-126956641-6=1; _dc_gtm_UA-9801603-6=1; ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQrlA7F0wCP8WXAQAA5tcEyhwiFtbt4puB0f05OFqHEotEzVibxnj9qFtKPoiGMbD2J1UvDasj+qOd0J750lq2sHH4dYAiNx89tXnR8xTZEOfhDUBJOxVBriNA7JkDZsvaesY7UUjBDe1hFCgTF9wWrBCTtc7w4CT7KfEEh6sHbVEza6EifHASM19Mg77YirDevgzPB71lgKnjaAvM/KWYq1Cw2u4fipLrpYzHL9Jg/Jkk86ZbRy0TGmgzMhqDhbTLrW1dxzpu8gcPpxBP8Og0sBQ58Nd4Xyl97sbKD3lfEJYu/DKGgLFM42C8t+gg9Lo6Rsr1FMkMR4vaFAcBEA5b68TcwjSMHcC+z3MyVH9o3xR5r6hlPlq5zPHanuoitJHt50EaFn9AhitXyr1AUPZnJ4R5cgMmBW3orSj38KQwdVfxlRNcMP5tKfoBX+pZSBQMYF3Q6ORCbZK632AlR5KMERAounS0WqiU1y2KK4/tmw8yNL9vPnFkC5pN27EaRuGT45igcWYl52pt8YdOLnEPD1lnFlnN9eE88+5jxohg1fAfgVbpJi9EyZrnN3Z0; bm_mi=FC3F671A48C9ABA8268EFFF7E57EDD6F~YAAQ1zQKcq8OVMKXAQAAssUEyhyQb5dSq2CU2iEdDRKnMsfzpxhTzhi2lXNeAEkSOk/rkLkxipaK6syqUpUpQHtD5mUnmdJc5fzVFcIJc9F/YgGKbzTX51KxrIezZO5SFj5Hej/IznamG3PLWxr6U5ldhGL6x9O5twz7D6heU+fVJpOBKF7Za56cLFKEAez/IwIbgPuUY/1ybUhCTjEatziLLHbEUSaMfGRSVhCyM/vv9DdqWXVSEODNjvD7Jxd+eD+RE4/LG1A1wVkxDub5snvcCkw1qklHUP9aKkUV5KCG+jxZBBiSBUzKtKj+8eM+67kZVAdVFJUza3DQrS+e2wtixU+FU9OZMMCXcyp8htQEt4c=~1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "post_data": "[{\"operationName\":\"TCORollout\",\"variables\":{\"keys\":[\"price_center\"]},\"query\":\"query TCORollout($keys: [String!]!) {\\n  TCORollout(keys: $keys) {\\n    results {\\n      key\\n      enable_rollout\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}]",
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "content-length": "150",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "24.86",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "date": "Wed, 02 Jul 2025 07:23:25 GMT",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "TCORollout": {
+            "results": [
+              {
+                "key": "price_center",
+                "enable_rollout": true,
+                "__typename": "TCORolloutResult"
+              }
+            ],
+            "__typename": "TCORolloutResponse"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:23:24.796405",
+    "url": "https://gql.tokopedia.com/graphql/PDPGetDataP2",
+    "method": "OPTIONS",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "bd-device-id,content-type,queryhash,x-dark-mode,x-device,x-price-center,x-source,x-theme,x-tkpd-akamai,x-tkpd-lite-service,x-version",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "priority": "u=4",
+      "te": "trailers"
+    },
+    "post_data": null,
+    "response_status": 204,
+    "response_headers": {
+      "server": "nginx",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "access-control-allow-headers": "Content-type, Event, Fingerprint-Data, Fingerprint-Hash, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, x-user-id, X-Device, X-Source, X-Method, X-Date, Authorization, flight-thirdparty, Accounts-Authorization, Webview-App-Version, Redirect, x-origin, Cshld-SessionID, x-tkpd-akamai, X-Mitra-Device, X-Tkpd-Lite-Service, x-ga-id, x-device, x-tkpd-ht, x-tkpd-clc, x-tkpd-htt, x-tkpd-app-name, x-return-hmac-md5, queryhash, sid_intools, sonic_access_token, x-element-id, X-Version, X-Auth-Signature, X-Auth-Timestamp, iris_session_id, X-Auth-Hash, X-NewRelic-Id, X-AppID, X-ClientID, Accept-Language, Fintech-Fingerprint-Data, x-app-version, x-dark-mode, x-theme, bd-device-id, bd-web-id, X-Tkp-Source, x-price-center, x-tkpd-log-id, X-Tt-Stress",
+      "access-control-max-age": "1728000",
+      "date": "Wed, 02 Jul 2025 07:23:23 GMT",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": ""
+  },
+  {
+    "timestamp": "2025-07-02T14:23:24.851566",
+    "url": "https://gql.tokopedia.com/graphql/GetMiniCart",
+    "method": "OPTIONS",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "bd-device-id,content-type,x-device,x-price-center,x-source,x-tkpd-lite-service,x-version",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "priority": "u=4",
+      "te": "trailers"
+    },
+    "post_data": null,
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "367.09",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "content-encoding": "gzip",
+      "content-length": "2337",
+      "date": "Wed, 02 Jul 2025 07:23:24 GMT",
+      "vary": "Accept-Encoding",
+      "set-cookie": "ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQrlA7F0wCP8WXAQAA5tcEyhwiFtbt4puB0f05OFqHEotEzVibxnj9qFtKPoiGMbD2J1UvDasj+qOd0J750lq2sHH4dYAiNx89tXnR8xTZEOfhDUBJOxVBriNA7JkDZsvaesY7UUjBDe1hFCgTF9wWrBCTtc7w4CT7KfEEh6sHbVEza6EifHASM19Mg77YirDevgzPB71lgKnjaAvM/KWYq1Cw2u4fipLrpYzHL9Jg/Jkk86ZbRy0TGmgzMhqDhbTLrW1dxzpu8gcPpxBP8Og0sBQ58Nd4Xyl97sbKD3lfEJYu/DKGgLFM42C8t+gg9Lo6Rsr1FMkMR4vaFAcBEA5b68TcwjSMHcC+z3MyVH9o3xR5r6hlPlq5zPHanuoitJHt50EaFn9AhitXyr1AUPZnJ4R5cgMmBW3orSj38KQwdVfxlRNcMP5tKfoBX+pZSBQMYF3Q6ORCbZK632AlR5KMERAounS0WqiU1y2KK4/tmw8yNL9vPnFkC5pN27EaRuGT45igcWYl52pt8YdOLnEPD1lnFlnN9eE88+5jxohg1fAfgVbpJi9EyZrnN3Z0; Domain=.tokopedia.com; Path=/; Expires=Wed, 02 Jul 2025 09:23:17 GMT; Max-Age=7193",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "mini_cart_v3": {
+            "error_message": [],
+            "status": "OK",
+            "data": {
+              "beli_button_config": {
+                "button_type": 1,
+                "button_wording": "Beli",
+                "__typename": "BeliButtonConfigData"
+              },
+              "placeholder_note": "Pastikan tidak ada data pribadi",
+              "errors": [],
+              "empty_cart": {
+                "title": "",
+                "image": "",
+                "description": "",
+                "buttons": [],
+                "__typename": "EmptyCartData"
+              },
+              "out_of_service": {
+                "id": 0,
+                "code": "",
+                "image": "",
+                "title": "",
+                "description": "",
+                "buttons": [],
+                "__typename": "OutOfServiceData"
+              },
+              "max_quantity": 30000,
+              "max_char_note": 144,
+              "messages": {
+                "ErrorFieldBetween": "Jumlah harus diisi antara 1 - {{value}}",
+                "ErrorFieldMaxChar": "Catatan terlalu panjang, maks. {{value}} karakter.",
+                "ErrorFieldRequired": "Jumlah harus diisi",
+                "ErrorProductAvailableStock": "Stok tersedia:{{value}}",
+                "ErrorProductAvailableStockDetail": "Harap kurangi jumlah barang",
+                "ErrorProductMaxQuantity": "Maks. beli {{value}} barang",
+                "ErrorProductMinQuantity": "Min. beli {{value}} barang",
+                "__typename": "CartMessages"
+              },
+              "header_title": "Keranjang Tokopedia NOW!",
+              "available_section": {
+                "action": [
+                  {
+                    "id": 2,
+                    "code": "DELETE",
+                    "message": "",
+                    "__typename": "CartRevampAction"
+                  },
+                  {
+                    "id": 3,
+                    "code": "NOTES",
+                    "message": "Tulis catatan untuk barang ini",
+                    "__typename": "CartRevampAction"
+                  },
+                  {
+                    "id": 4,
+                    "code": "VALIDATENOTES",
+                    "message": "Maks. 144 character",
+                    "__typename": "CartRevampAction"
+                  }
+                ],
+                "available_group": [
+                  {
+                    "shop": {
+                      "shop_alert_message": "",
+                      "shop_id_int": 9086494,
+                      "shop_id": "9086494",
+                      "user_id_int": 107796725,
+                      "user_id": "107796725",
+                      "shop_name": "Mongssembako",
+                      "shop_image": "https://images.tokopedia.net/img/cache/215-square/aphluv/1997/1/1/ea891352431c4282a1a48ff9f7dc6b5a~.image",
+                      "shop_url": "https://www.tokopedia.com/mongse",
+                      "shop_status": 1,
+                      "is_gold": 1,
+                      "is_gold_badge": false,
+                      "is_official": 0,
+                      "is_free_returns": 0,
+                      "address_id": 2255,
+                      "postal_code": "11850",
+                      "latitude": "-6.167872",
+                      "longitude": "106.711108",
+                      "district_id": 2255,
+                      "district_name": "Kalideres",
+                      "origin": 2255,
+                      "address_street": "taman semanan indah d6",
+                      "province_id": 13,
+                      "city_id": 174,
+                      "city_name": "Kota Administrasi Jakarta Barat",
+                      "province_name": "DKI Jakarta",
+                      "country_name": "Indonesia",
+                      "is_allow_manage": false,
+                      "shop_domain": "mongse",
+                      "shop_ticker": "",
+                      "maximum_weight_wording": "",
+                      "maximum_shipping_weight": 0,
+                      "shop_type_info": {
+                        "shop_tier": 1,
+                        "shop_grade": 12,
+                        "badge": "",
+                        "badge_svg": "",
+                        "title": "Regular Shop",
+                        "title_fmt": "gold_merchant",
+                        "__typename": "ShopType"
+                      },
+                      "__typename": "CartShop"
+                    },
+                    "shipment_information": {
+                      "estimation": "",
+                      "shop_location": "Kota Administrasi Jakarta Barat",
+                      "preorder": {
+                        "is_preorder": false,
+                        "duration": "",
+                        "__typename": "ShipmentInformationPreorderData"
+                      },
+                      "__typename": "ShipmentInformationData"
+                    },
+                    "cart_details": [
+                      {
+                        "cart_detail_info": {
+                          "cart_detail_type": "",
+                          "bmgm": {
+                            "offer_id": 0,
+                            "offer_type_id": 0,
+                            "offer_name": "",
+                            "offer_icon": "",
+                            "offer_landing_page_link": "",
+                            "offer_json_data": "",
+                            "total_discount": 0,
+                            "offer_status": 0,
+                            "offer_message": [],
+                            "is_tier_achieved": false,
+                            "tier_product": [],
+                            "__typename": "BMGMType"
+                          },
+                          "__typename": "CartDetailInfoType"
+                        },
+                        "products": [
+                          {
+                            "cart_id": 9841562552,
+                            "product_tracker_data": {
+                              "attribution": "",
+                              "tracker_list_name": "",
+                              "__typename": "ProductTrackerDataType"
+                            },
+                            "product_variant": {
+                              "parent_id_int": 0,
+                              "parent_id": "0",
+                              "default_child": 0,
+                              "__typename": "CartProductVariant"
+                            },
+                            "isWishlist": false,
+                            "product_id_int": 12762995513,
+                            "product_id": "12762995513",
+                            "product_name": "MINYAK GORENG SANIA - 1 l",
+                            "product_price_fmt": "Rp18.000",
+                            "product_price": 18000,
+                            "product_price_data": {
+                              "final_price": 18000,
+                              "final_price_fmt": "Rp18.000",
+                              "base_price": 0,
+                              "base_price_fmt": "",
+                              "icon_price_url": "",
+                              "icon_price_url_dark": "",
+                              "final_price_color": "",
+                              "final_price_color_dark": "",
+                              "__typename": "TTSProductPriceData"
+                            },
+                            "parent_id_int": 12762995510,
+                            "parent_id": "12762995510",
+                            "category_id": 1160,
+                            "category": "Makanan & Minuman / Bumbu & Bahan Masakan / Minyak",
+                            "catalog_id": 0,
+                            "wholesale_price": [],
+                            "product_weight": 2200,
+                            "product_weight_fmt": "2200gr",
+                            "product_condition": 1,
+                            "product_status": 1,
+                            "product_url": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+                            "is_preorder": 0,
+                            "product_cashback": "",
+                            "product_min_order": 1,
+                            "product_max_order": 400,
+                            "product_rating": "0.000000",
+                            "product_invenage_value": 256,
+                            "product_switch_invenage": 1,
+                            "product_information": [],
+                            "product_tag_info": [],
+                            "price_changes": {
+                              "changes_state": 0,
+                              "amount_difference": 0,
+                              "original_amount": 18000,
+                              "description": "Harga Normal",
+                              "__typename": "PriceChanges"
+                            },
+                            "product_image": {
+                              "image_src_100_square": "https://images.tokopedia.net/img/cache/100-square/VqbcmM/2024/2/19/d092b032-1c67-4b5c-bc78-79a20a982da8.jpg",
+                              "__typename": "CartProductImage"
+                            },
+                            "product_notes": "",
+                            "product_quantity": 1,
+                            "product_weight_unit_code": 1,
+                            "product_weight_unit_text": "gr",
+                            "last_update_price": "-62135622000",
+                            "is_update_price": false,
+                            "campaign_id": 0,
+                            "product_original_price": 0,
+                            "product_price_original_fmt": "",
+                            "is_slash_price": false,
+                            "product_finsurance": 1,
+                            "is_wishlisted": false,
+                            "is_ppp": false,
+                            "is_cod": false,
+                            "warehouse_id_int": 9227548,
+                            "warehouse_id": "9227548",
+                            "is_parent": false,
+                            "is_campaign_error": false,
+                            "is_blacklisted": false,
+                            "booking_stock": 0,
+                            "variant_description_detail": {
+                              "variant_description": "1 l",
+                              "__typename": "VariantDescriptionDetailData"
+                            },
+                            "is_product_volume_weight": false,
+                            "initial_price": 18000,
+                            "initial_price_fmt": "Rp18.000",
+                            "slash_price_label": "",
+                            "product_warning_message": "",
+                            "product_alert_message": "",
+                            "__typename": "CartProducts"
+                          }
+                        ],
+                        "errors": [],
+                        "messages": [],
+                        "checkbox_state": false,
+                        "__typename": "CartDetailsType"
+                      }
+                    ],
+                    "sort_key": 9841562552,
+                    "cart_string": "9086494-0-9227548-236232552",
+                    "__typename": "CartRevampGroup"
+                  }
+                ],
+                "__typename": "AvailableSectionData"
+              },
+              "unavailable_ticker": "",
+              "unavailable_section_action": [
+                {
+                  "id": 7,
+                  "code": "SHOWLESS",
+                  "message": "Tampilkan lebih sedikit",
+                  "__typename": "CartRevampAction"
+                },
+                {
+                  "id": 8,
+                  "code": "SHOWMORE",
+                  "message": "Tampilkan semua",
+                  "__typename": "CartRevampAction"
+                }
+              ],
+              "unavailable_section": [],
+              "shopping_summary": {
+                "total_wording": "Total Harga (0 Barang)",
+                "total_value_fmt": "Rp0",
+                "total_value": 0,
+                "total_original_value": 0,
+                "discount_total_wording": "Total Diskon Barang",
+                "discount_value": 0,
+                "payment_total_wording": "Total Bayar",
+                "payment_total_value": 0,
+                "promo_wording": "Hemat pakai promo",
+                "promo_value": 0,
+                "seller_cashback_wording": "Cashback Penjual",
+                "seller_cashback_value": 0,
+                "__typename": "ShoppingSummaryData"
+              },
+              "__typename": "MiniCartV3Response"
+            },
+            "__typename": "MiniCartV3DataResponse"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:23:26.177834",
+    "url": "https://gql.tokopedia.com/graphql/RolloutUserVariant",
+    "method": "POST",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "referer": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+      "x-tkpd-lite-service": "phoenix",
+      "x-version": "65007bb",
+      "bd-device-id": "7521226608729015809",
+      "x-price-center": "true",
+      "content-type": "application/json",
+      "x-source": "tokopedia-lite",
+      "content-length": "581",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQ1zQKcskOVMKXAQAAecwEyg781t4CrXQfDNm+SzrsbO1YbswMYA76TM2aWQK/usn2Uyct6BJwWPmugHlk5ebLl0gHJW7Ioy6ed9VRCwUlpT/pp2HVrsGfnDgm3cO2y+vywMoqEv+zo7g92NXAY4cGeHEKvl7u1zujCunWYpYZ6zskeK8HN2dKURJtSqtlD+dQ0zwsoq7/M4gbEq3EC+aqcbRUko1ytvW729Sye82/5MWWHuvxyTE7v6LrMBteXSimUa+Z5fAFxgQYXjoG/8wKm+d526vMSYDFmWMpRn3Ja9sEZfdzd3xmYp2JNjJwQXLX0o3bUhgYtonMBnPb5jlsi7S40+JSjjnjDjqo1fhdoDwqxNUK9gontHe5jIGc9libB0FZfRandt0IXFf7FfQuI51joHNzcqCEAp7/PwwZUd6joXlCjnudnTMkndzX8CwTVs1Gs8nclUFvzkDDPlOF8UiZRS9uBJVMxkOyXEypSNFURIX3AjBov8rjKV4XOYz8NWHdQ8i3Zj0NrF9K+AjRXi556ppNs4egdB8bZbTfkXXZUfHFyvHUckXY9BmIdBClb+3eIxzrL3iLvW1Xkifr5Ka00n/+24KLEVQt8rwGUAZUi5Ft3TOxu1WMMqlIcv5+bWU3UYbAQ0YqvQNnCYmjgB7bLWMGGw6gBESHQhYSijStHfk758/ggf/ppdzn5aWz5R7Cf6lAJpZahm8tQ4HkF02gqSdDgoau0AECD3JPcZaV2p1aDG+97W2BYp5RkFfxAUy/xu6tbiLcN5cYmDX8CVcquyJb8XyGrDS4KlKD+OO8fzo5YVQam1Lg9Bc7p5o4JqyuOCoWHk1BUa2hT8J+okyl5Tu5DHCf44bDxuUuwLz9G0+YXE0DUixqIvrmKZjjG3VFov87pN79Cvp2cjPK6d63vq8lOQ1cJ77eoJsV8rEZu6ZNe3UFK1Rs+5IAfUQUWi7mc0RwlSESu/85xYUmAMeyHO4T/G/9YdNbsu2U4juWJs4wZNI/L12jp2QfNdCN+jvfAPEal7HuxDo9AiDp/qAfCCu09lZYIMVhA2aJ3fzAhIdiunonB4E/+DWz/KWIznVLFvsrBkVhs7K0GZ/GIuU6oejJTgCOECvysTfQE2x/Bg7M+22FYneWfA4J0I0aLUSoqC5KbgfBeVBxnrZ3q1yvA9IzQTyiMOtxffvofIjVPiazkZSBZnEqZI2cqDud~-1~||0||~-1; _SID_Tokopedia_=_EQEttYkjcYdBBD4957jobb_eEF7BF0sLlLKlyZu4gnuEH2uyAATpDZXWNUt_GMt-jwuxBoi1RuNsqvH0pIsDzRMv2iHlk0fO8t7kRJ8-91EsjbfsdKQj8CBLp2uIBj8; DID=9b03438f709b8aa2d55b7ff45d2ea6b52639e7411310652709d90520d6014400b9f558f8915429b5e76537a0e0702b55; DID_JS=OWIwMzQzOGY3MDliOGFhMmQ1NWI3ZmY0NWQyZWE2YjUyNjM5ZTc0MTEzMTA2NTI3MDlkOTA1MjBkNjAxNDQwMGI5ZjU1OGY4OTE1NDI5YjVlNzY1MzdhMGUwNzAyYjU147DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; _gcl_gs=2.1.k1$i1751172039$u214926738; _gcl_au=1.1.1050268943.1751172042; ISID=%7B%22www.tokopedia.com%22%3A%22d3d3LnRva29wZWRpYS5jb20%3D.832234b64aeaa48a1a08c823c711ad1d.1751172042552.1751172042552.1751441003142.140%22%7D; _ga_70947XW48P=GS2.1.s1751440998$o8$g0$t1751441000$j58$l0$h0; _ga=GA1.2.1859209012.1751172044; l=1; tuid=253866383; gec_id=1090347812538826432; _UUID_NONLOGIN_=2e8943a7e8088b5009d28ddb18b38e76; _UUID_NONLOGIN_.sig=sMuUi1MQAV2FiIvcEwb2TtKiysQ; aus=1; webauthn-session=7b1c5af9-3956-49a1-8bde-f949329dea1d; _CASE_=237a39113c7a627a6a6a6f6d6969606b617a747a3b113c7a62696c69747a3c113c7a62696d6b68747a340d283c7a627a6a686a6d75686f75686a0c6969626b6d62686d73686f6268687a747a34392c7a627a756e766b6a616f6d68686a6a6d686d6f606f7a747a343a347a627a0a2d353930783e3d2a3c317a747a3437363f7a627a69686e766b616d6c6d6061696c6b6b616d6c7a747a281b377a627a6c6a6b60697a747a2b113c7a627a7a747a2b0c21283d7a627a37373b7a747a2f113c7a627a7a747a2f302b2b7a627a03057a25; _UUID_CAS_=933a5372-8394-49f6-a039-100cf3b885a2; _tt_enable_cookie=1; _ttp=01JYWZX68AJB0YF6YM7VWJS486_.tt.1; ttcsid_CPTR1KRC77UF05LN2NAG=1751172159757::yAvzH3URjEpI0V6cdtPT.1.1751184144332; ttcsid=1751172159757::x0gsY56tCM2SbXySikU1.1.1751184144020; _fbp=fb.1.1751172342391.765884947522128461; FPF=1; shipping_notif=0; bm_sz=A43B43B3EFA0A80BF6C43946CE84EA4D~YAAQ1zQKcrAOVMKXAQAAssUEyhyyuxKTEX1p1drAqRR05NFEm7Oc0uCyZpUmwa7eLY26NJ6LCSOIo/9WeLjoIT5TocPAR4P4rgm4uz2ZTLjfGDKsSzwIYno6nlSgvZNkJ2ldsP0ic9deEix+rkuU3AsEB/e1RDy/X/x8EGCXEyjLDP6h/VzxLzF2VOXo9qlcLSCZ2ILqUZbaagY6c8auPvH1nqsQgaTBq/ju4waim25fUKjEErh+jMZy0ONX6bjo/6l5vcdC058yqndhFkhnZ5x/CNDTVK5EYvTwcVdCk849g6mjOwLIqc9SyJpzTFIBLoG57VIZvuNPZXIOoFx4c4hzrXW7q4dAU3VRTc0wIZt6YnUqVpRIhQgrKSCt+eQ+orGHzkYFL8073ElFdchpGdZLlBxM9F8RkThT3q+8gn6w+E/ABVwMq1qUZCYV9fbzhDjU3PjYqI1soSwd+SsV/5BKbaQf7JNAbeadKjmPsMunlWrGASB707WRa9mfkqVDg7s3D71QW+zCFLu9zVqMMljyPaALij2FB92JNNCOf6shJQ==~3424566~3163203; _gid=GA1.2.1415773262.1751427311; inbox_version=%22v2%22; _gat_gtag_UA_9801603_6=1; AMP_TOKEN=%24NOT_FOUND; uidh=dGitTOVliRPRTD7hJZYQNA4ZubOJrjSa/cPvm3Oa7eU=; uide=BzluLa46PDjeRgabQ9KnMBGfJVVMuXyRcbjhQNatw8NXaA1h5w==; _dc_gtm_UA-126956641-6=1; _dc_gtm_UA-9801603-6=1; ak_bmsc=1A0E3512036AFE6EA15C310428C7C03F~000000000000000000000000000000~YAAQrlA7FzgCP8WXAQAADtYEyhz2WeA4Cj1hjFuC3MQ2XYfRr0tZ5khvngGLJq7u1+tv6C6RqHsHo+Wqg/RdgD8f+VZbQs+8TFok4XIL3m9txSl9ny4i+4VpLPs0k9Eofvv+G3RGQZr6L8JmyYwfhec98I64kgWK8iJzjLY20Wpk3z4119pcs1a1JY4u8ujlyPngRCKMkBO2A6MPzbkbJ1cNMYcI1UVlVrVhv6/jUr25CgWAGx442v9Q152As9q7gOCrVK8e4PkpMJDFwiBFRlpbVIC60DFZRVJUnjYFIPcwErPDRjQ5ZrYyqvIijDS4N+OxAINytrgqqRJZBc62tBsESH+eQUqqQaSyGc+GLh28Iof/sNIAH0O6z/Xp5pPca0SL+79FAHRFGCQr+JvQOCNC0P3lnx5EvOJ1fqSKSFiBz+nNSLoZBcOnZO5z/M95g6qPUoFyz1fDM5spQqxFT2Woq2+GjFVksWXZJKxy4WlJGpDIY1r8Xnk8A1ZA3Dy9fVAw1Z86Ae2Y94Po3t2S/qvLmo3QJQD1AOx4+GG7hDaXy/DnxK8eT/wri33n9xIh; bm_mi=FC3F671A48C9ABA8268EFFF7E57EDD6F~YAAQ1zQKcq8OVMKXAQAAssUEyhyQb5dSq2CU2iEdDRKnMsfzpxhTzhi2lXNeAEkSOk/rkLkxipaK6syqUpUpQHtD5mUnmdJc5fzVFcIJc9F/YgGKbzTX51KxrIezZO5SFj5Hej/IznamG3PLWxr6U5ldhGL6x9O5twz7D6heU+fVJpOBKF7Za56cLFKEAez/IwIbgPuUY/1ybUhCTjEatziLLHbEUSaMfGRSVhCyM/vv9DdqWXVSEODNjvD7Jxd+eD+RE4/LG1A1wVkxDub5snvcCkw1qklHUP9aKkUV5KCG+jxZBBiSBUzKtKj+8eM+67kZVAdVFJUza3DQrS+e2wtixU+FU9OZMMCXcyp8htQEt4c=~1",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "post_data": "[{\"operationName\":\"RolloutUserVariant\",\"variables\":{\"id\":\"253866383\",\"client_id\":\"3\",\"iris_session_id\":\"d3d3LnRva29wZWRpYS5jb20=.832234b64aeaa48a1a08c823c711ad1d.1751172042552\",\"listExpName\":[\"w2a_opt\"]},\"query\":\"query RolloutUserVariant($listExpName: [String!]!, $id: String!, $client_id: String!, $iris_session_id: String!) {\\n  RolloutUserVariant(\\n    input: {listExpName: $listExpName, ID: $id, clientType: $client_id, irisSessionID: $iris_session_id}\\n  ) {\\n    featureVariants {\\n      feature\\n      variant\\n      __typename\\n    }\\n    message\\n    __typename\\n  }\\n}\"}]",
+    "response_status": null,
+    "response_headers": null,
+    "response_body": null
+  }
+]

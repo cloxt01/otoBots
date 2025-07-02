@@ -1,0 +1,17 @@
+{
+  "url": "https://example.com",
+
+  "api" : {
+    "domain": "example.com"
+  },
+  "browser": {
+    "headlessMode": false,
+    "profilePath": "C:\\Users\\MyBook Hype\\project\\gcloud\\Profiles\\2tekjd15.Cloxt00"
+  },
+  "cookie": "",
+  "ai": {
+    "platform": "openrouter-ai",
+    "apiKey": "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"
+  }
+}
+

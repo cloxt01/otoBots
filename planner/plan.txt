@@ -1,0 +1,5 @@
+2025-07-02 14:40:23,755 [INFO] AI Thinking...
+{'model': 'deepseek/deepseek-r1-0528:free', 'messages': [{'role': 'system', 'content': {'type': 'text', 'text': 'You are a helpful assistant.'}}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Tolong analisa traffic ini
+!'}, {'type': 'file', 'file': {'filename': '2025-07-02_14-39-56.json', 'file_data': 'data:application/json;base64,Ww0KICB7DQxxx'}}]}]}
+
+2025-07-02 14:40:37,886 [ERROR] Request gagal! Status: 400, Response: {"error":{"message":"Invalid input","code":400},"user_id":"user_2zJEofrC0z1zBcVJYQvAHHVFyZS"}

@@ -1,0 +1,222 @@
+[
+  {
+    "timestamp": "2025-07-02T14:47:23.762479",
+    "url": "https://gql.tokopedia.com/graphql/NotificationQuery",
+    "method": "OPTIONS",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "bd-device-id,content-type,x-price-center,x-source,x-tkpd-lite-service,x-version",
+      "referer": "https://www.tokopedia.com/product",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "priority": "u=4"
+    },
+    "post_data": null,
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "396.22",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "content-encoding": "gzip",
+      "content-length": "391",
+      "date": "Wed, 02 Jul 2025 07:47:23 GMT",
+      "vary": "Accept-Encoding",
+      "set-cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQj60wFwy1NsWXAQAA/cwayg79/Dwg10YYc1CMcj2rMP10tFXvrtyuFq/988VamN+LlycnLrho6+DoAgSZchoDxfexUjgyXtON3Fynw1aNNTiS8HIpbzo75rO7jNZLoHGasKDtURR5v44OYA0W2d4jQndiPZNWHkVHKYIFgBzYWL+gP+LMgFAJfEenqw0lyejgngEmJwgZ2TNpTlXEKPVZ3D1mzcPQfiQx0IXwEhVOXyBZ15lu0OL/FbjBLl7tsPzXfbXd/gWPttgrovP8RlU2++HG/pBuObPSe9YdfTICC9dzgtAdZQojuHjLO+PaU9I2ifTjpBDobXlIR3MKX3OGZRLjHooB3/n1Yl6AtvMopYXZwQ2GUVGAnMaP2ZgfcjsZWI+byyhhX7SOlaFUJ7HOX1aM7vi2p5jkKeKOKsM8EA+shyUj8iwMncMotXFSac5DjlkiqSRYhrOpktr4bW9VrxplbL4zC9R+nVQo5sriFAlZ57rQ8FHi3Z8uGUb7i5Lm+0TGL5SUMfLEBfPXY3UwUQTXJBO1BO3vZGjZfQN8oF27Pc1Xe+rquTM7z3L1FPC0EuyastBQ3yWFxiswc6ulmL/PZskQSnM5mRVcrkbfisSfm+aOXdPu/k38DbqB1tHR4heR5T+KFNcXYCaDj3ZtCUifedpkX0r3487eMHnn75eeUFSD0DhxsawSiAX+PpXxkeP1J1pyC4J7Xczd23ozR0XgafwGAyv/tjbpZsVF4eqfRCAXAfZq6QbiBYrHQmiBLY6W/0GEEO9JSXq6OC06T0PoK4fY0QffUJE59QbuC37sldvTOzAAN+Gi/1x+Lqx+MYFCJ/H8f1CnKFF57hLR/cOlEnXd6B/JUHOlHZsLNYkNGCPG4Eo4zaRskB7cmaDLKmqg0K+CAcFUkZ/kpowngK7ufbtDwk1DQ0V9nxieROy7TkUS4+WumI/4FA44ELUWXG6ZekmU/RxbscWYSzdbiqW27LlKOR4NGdDala+qoGvxXBKOK1gN+rzOcyWPjkhA7fKUp3f89XOIyOdhVfw1kQRAqMwZpvFxY9aLTwagcVuTFH3bA5btT2Q9rUbrn4lUyNdL9MgHZkSLDNuB+/9wsSaLhSoTW7Q8epELQD/nRPHP1OVqoZTWNBgoXQYACCC4p0E5bJ/SwpKTWg57Zk3Z0kvsWB7j2A==~-1~-1~-1; Domain=.tokopedia.com; Path=/; Expires=Thu, 02 Jul 2026 07:47:23 GMT; Max-Age=31536000; Secure",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "notifications": {
+            "total_cart": 3,
+            "inbox": {
+              "inbox_talk": 0,
+              "inbox_ticket": 0,
+              "inbox_review": 0,
+              "inbox_friend": 0,
+              "inbox_message": 0,
+              "inbox_wishlist": 0,
+              "inbox_reputation": 0,
+              "__typename": "NotificationsInbox"
+            },
+            "inbox_counter": {
+              "buyer": {
+                "total_int": 0,
+                "talk_int": 0,
+                "notifcenter_int": 0,
+                "review_int": 0,
+                "__typename": "CounterDetail"
+              },
+              "__typename": "NotificationInboxCounter"
+            },
+            "chat": {
+              "unreadsUser": 0,
+              "__typename": "TopChatNotifications"
+            },
+            "seller_info_notif": {
+              "notification": 0,
+              "__typename": "SellerInfoNotifications"
+            },
+            "buyerOrderStatus": {
+              "paymentStatus": 0,
+              "confirmed": 0,
+              "processed": 0,
+              "shipped": 0,
+              "arriveAtDestination": 0,
+              "__typename": "NotifyBuyerOrderStatus"
+            },
+            "sellerOrderStatus": {
+              "newOrder": 0,
+              "readyToShip": 0,
+              "shipped": 0,
+              "arriveAtDestination": 0,
+              "inResolution": 0,
+              "__typename": "NotifySellerOrderStatus"
+            },
+            "notifcenter_unread": {
+              "notif_unread_int": 0,
+              "__typename": "NotificationUnread"
+            },
+            "notifcenter_trx_unread": {
+              "notif_unread_int": 0,
+              "__typename": "NotificationUnread"
+            },
+            "is_tab_update": false,
+            "resolution_as": {
+              "resolution_as_buyer": 0,
+              "resolution_as_seller": 0,
+              "__typename": "NotificationResolution"
+            },
+            "__typename": "Notification"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:47:23.750495",
+    "url": "https://gql.tokopedia.com/graphql/DynamicPlaceholderQuery",
+    "method": "OPTIONS",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "bd-device-id,content-type,x-device,x-price-center,x-source,x-tkpd-lite-service,x-version",
+      "referer": "https://www.tokopedia.com/product",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "priority": "u=4"
+    },
+    "post_data": null,
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "content-length": "214",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "14.34",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "date": "Wed, 02 Jul 2025 07:47:23 GMT",
+      "set-cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQj60wF/+0NsWXAQAAm8sayg6aNzLNEkZOwbgh6RWpLpwAlRvyR8NleYF2J6YQS374ZyPTdCDdfm9SNh7wnPMj5CGNHkLm4AyQzHyqGCAa0WC+bvW4e3L3T+0UYjcEbtMBECNZ6yaNKxIdCVQh4gXc24V6OFkx43M16dQL8PvgK4M7wNy8O3/molIudR720J7DANWMcPsgzciW0z9CQJJ7PFQCNJ9MGD8jlIF3eCegXgl5bFKfwWw74fwWCcasSU07uvkQwp5s6k/ndR7LZ9y32MN3f+/BwXPF2ufkV9qMMow1Pbq23PssQZgAcN669GRX/0zOFgcL13DF91y23WurvYDfLpzwo/LIm38TzJSxHvxqDUjR3UuKaBW7kz5dD1uE4FBYq+pIAI9ndeLX+KlXP3cUtGXsI4mFB5mifz+8XhyRgweGfo04NZK2+EQjOGtgF+5Ok+te8K9TqSnRo0hqxyS+pZBpgP9KRyL57OmTGY0jo9COQ0FROAt3qhH7TjxfL0h4sWiWGHzMPDrCW5w/N2Ye/7zFlksGCALaF4qPUIRbnG1GGFMNELS0hcZm9SJWPTs09nVxvKSNxjL8+0rnYwDpwy6Wn7oHUVzedex1tnlWOh9RVVGaKd7fUSvOIHUEVnYI+TMZOrgN9KoEEq6o8Jfx0WG9vN14+AY814bNkFtDXTnOj88M9L/yPngLaC5MTIIr2AMdhYtfKuCQQ8Dx9xD0odaAeAc2nh/zq2A7134mU+3TfUpdVf8xfWg+YQ6T+jWvZ/kyjEAjPZci23We3vl9hZaVYUpt+4GeUMKej/W7OFu7NTabuml5+59yoPHI9nyfbxqesZGEbhosPgfVCo+3ZxTuy/noOu/XYJzmCEzySs6KEde9I3Mcl3TeoVa/0MgxcZnsCajOUrscuT8mH7lBGhrWLTp0hLw9qlYHl2ck4oZOm93GVFPNNyssxrnEN9A1f8nUXYGoq0V9spBKtCOiEIX840FE6tOapr2Z1W/YPBj/F89xJR2h9A9BLATqeDDDE3gS3vN40HUwilDkTzWNWtu/sT0tbJGKy/EkjKHKfMYFuzF9k2ySim1WFAc960QsNUG7oxROXZh3ukTg+rXR1B27WUzgHjGnPijKFU9R/fVmCxZcfXs5x0NIKAcQ9BwLxXfmPrPn7WdZnjQoW/IYkvUyjw==~-1~-1~-1; Domain=.tokopedia.com; Path=/; Expires=Thu, 02 Jul 2026 07:47:23 GMT; Max-Age=31536000; Secure",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "universe_placeholder": {
+            "data": {
+              "keyword": "",
+              "placeholder": "Cari di Tokopedia",
+              "group_id": "",
+              "impr_id": "",
+              "words_source": "",
+              "__typename": "UniversePlaceholderResult"
+            },
+            "__typename": "UniversePlaceholder"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-02T14:47:23.739907",
+    "url": "https://gql.tokopedia.com/graphql/TCORollout",
+    "method": "OPTIONS",
+    "request_headers": {
+      "host": "gql.tokopedia.com",
+      "user-agent": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.5",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "bd-device-id,content-type,x-device,x-price-center,x-source,x-tkpd-lite-service,x-version",
+      "referer": "https://www.tokopedia.com/product",
+      "origin": "https://www.tokopedia.com",
+      "connection": "keep-alive",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "priority": "u=4"
+    },
+    "post_data": null,
+    "response_status": 200,
+    "response_headers": {
+      "content-type": "application/json",
+      "content-length": "150",
+      "access-control-allow-headers": "Content-type, Fingerprint-Data, Fingerprint-Hash, x-user-id, Webview-App-Version, Redirect, Access-Control-Allow-Origin, Content-MD5, Tkpd-UserId, X-Tkpd-UserId, Tkpd-SessionId, X-Device, X-Source, X-Method, X-Date, Authorization, Accounts-Authorization, flight-thirdparty, x-origin, Cshld-SessionID, X-Mitra-Device, x-tkpd-akamai, x-tkpd-lite-service, x-ga-id, x-device, Akamai-Bot, x-tkpd-app-name, x-tkpd-clc, x-return-hmac-md5, queryhash, Event, X-Element-ID, sid_intools, sonic_access_token, Referer, x-tkpd-ht, x-tkpd-htt, X-Auth-Signature, X-Auth-Timestamp, X-Auth-Hash, X-NewRelic-Id, newrelic, tracestate, traceparent",
+      "access-control-allow-methods": "GET, HEAD, PUT, PATCH, POST, DELETE",
+      "gql-proxy-response": "true",
+      "gql-request-processing-time": "27.80",
+      "x-tkpd-gql-dc": "gcp",
+      "x-tkpd-srv-go": "go-graphql",
+      "access-control-allow-origin": "https://www.tokopedia.com",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "queryhash",
+      "date": "Wed, 02 Jul 2025 07:47:23 GMT",
+      "set-cookie": "_abck=FCA118040BDC261DC696FB06B0CA54A2~-1~YAAQj60wF/m0NsWXAQAAW8sayg5yf3vUR6pA9JkQltKVnMzCsqTsA7IuYjz/P3nC+F+oXMIVPYxETB6UZvoqn0Z7Qw/gdtWBU4USyAESU4vs5kq6kiMoCiEwCuUZcXj7FlSAWC6x2FCTbvnDPAYAy6LfwWP6gm4XmvV+QGyWrbzvkPFBPmCMKPJmf9c0M9bf7hA8CQHO/37ERuZDO59JmDswzKUc/iVuqTr53LlDR4V7DqLrdf/NlddAuottuENkaYws0yiMkXL89yVDe6j7lp9jj+J227kVt6lUYNgHAxsmSAKyVv3v/xXMWqB9EheLjh46rvidrTwr87ukdOCemvj22OzSd102EoEtVUv/YU3b/sukJZzD3CI5a6M6xCI8HWmVgxyMiMmZXyT9rPiC1NSjfBhpaYZE6bUwFV3hTcWE242RImR9V1ieSpwB6yllJVMZofGMoZqjd4nLn7XigxExFd/+CZfCOsylZSbr/9TYG8nAu6htqSfeakd0WTqgiCsysXf2hpfx7ngdI727ZSfvr8plYEodLN7Jz66WpSJ/BVNl4HY/wtD22vk3qlHi9o2g46jrAqBpSuK2Uz9WwhsGrs9VTsyDmeddOZ+2MsJg/PTQMy+UnhK5bQ4EjBr4qZHmdR8T75Ue6nhBUgOqpyzH9K66b5TY3yf+wqb8dw+UdO6pizNbJRDtGvVRfkH1wzdO4KdNmXhC1kGCGHgJeiPjUS/Ucln32iiI7H9YOmBIWs/B3dBMV1mHxHQ39xwlSv3mMrigWFjwuCtkhm5DDbeWCvQwlwn99U0HtdCRa3/5tV6fCh9UoxWlVwBr17BtqBkIm2qjYrysc7xPwK3g4YUIQC5w7jEKagBDnqyvIKtbJSUHWr/Gd1tQByggnO2SW+RnFbgAK4GI6BM9C7mBY9wnvfQE97BVaNUcMQzNB3KyKkzC1OW1h9y3iFoz+nYmF/lN7qJepj+AmXHuYF/H2RgL/tk0jfI/I2lMpr5NNdf90pAmlzIyRHPYMz7Vn6lVPpmVWpjlrDqFUaxtcen38bAg2qF6767YbgW9Kb0vWRNy39/Ov2vc58FGwaolrFYpaXD6RIUoe2MEN6iG/tNp4+BIVHPrVp8qGR2pyUM0Hbr2ho4+KwGjgtEWvkzBB8vvbeFAMjKCM8HlRqzmkUeBSAjdYEKQfmID7g==~-1~-1~-1; Domain=.tokopedia.com; Path=/; Expires=Thu, 02 Jul 2026 07:47:23 GMT; Max-Age=31536000; Secure",
+      "x-firefox-spdy": "h2"
+    },
+    "response_body": [
+      {
+        "data": {
+          "TCORollout": {
+            "results": [
+              {
+                "key": "price_center",
+                "enable_rollout": true,
+                "__typename": "TCORolloutResult"
+              }
+            ],
+            "__typename": "TCORolloutResponse"
+          }
+        }
+      }
+    ]
+  }
+]

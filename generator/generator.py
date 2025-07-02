@@ -1,0 +1,110 @@
+import json
+import os, mimetypes
+import requests
+import logging
+import base64
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.StreamHandler()]
+)
+
+class Generator:
+    def __init__(self, conf, model):
+        self.conf = conf
+        self.model = model
+        self.apiKey = self.load_apiKey(conf)
+        if not self.apiKey:
+            logging.error("API Key tidak ditemukan. Generator tidak dapat digunakan.")
+
+    def load_apiKey(self, conf):
+        try:
+            logging.info("Memuat API key...")
+            if conf['ai']['apiKey']:
+                logging.info("API Key dimuat")
+                return conf['ai']['apiKey']
+            return None
+            # for plat_dict in conf['ai']['platform']:
+            #     if self.platform in plat_dict:
+            #         api_datas = plat_dict[self.platform]
+            #         if api_datas and "apiKey" in api_datas[0]:
+            #             logging.info("API Key berhasil dimuat")
+            #             return api_datas[0]["apiKey"]
+            # logging.warning(f"Tidak menemukan API key untuk platform: {self.platform}")
+            # return None
+
+        except Exception as e:
+            logging.error(f"Error saat memuat API key: {e}")
+            return None
+
+    @staticmethod
+    def get_data_url_prefix(path):
+        mime, _ = mimetypes.guess_type(path)
+        if mime is None:
+            mime = "application/octet-stream"
+        return mime
+
+    @staticmethod
+    def encodeBase64(path):
+        with open(path, "rb") as f:
+            return base64.b64encode(f.read()).decode('utf-8')
+
+    def generate(self, prompt: dict, imagePath: str = None, filePath: str = None):
+        try:
+            logging.info("AI Thinking...")
+            url = "https://openrouter.ai/api/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {self.apiKey}",
+                "Content-Type": "application/json"
+            }
+
+            # Gabungkan prompt dan isi file menjadi satu string untuk user
+            user_content = prompt['user']
+            if filePath:
+                with open(filePath, "r", encoding="utf-8") as f:
+                    file_content = f.read()
+                user_content += f"\n-----------------\n{file_content}\n-----------------\n"
+
+            payload = {
+                "model": self.model,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": prompt['system']   # string BUKAN dict
+                    },
+                    {
+                        "role": "user",
+                        "content": user_content      # string gabungan prompt+file
+                    }
+                ]
+            }
+
+            # Jika imagePath diisi, gunakan format multimodal (untuk model multimodal SAJA!)
+            if imagePath:
+                payload["messages"][1]["content"] = [
+                    {
+                        "type": "text",
+                        "text": user_content
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:{self.get_data_url_prefix(imagePath)};base64,{self.encodeBase64(imagePath)}"
+                        }
+                    }
+                ]
+
+            response = requests.post(url, headers=headers, json=payload)
+            if response.status_code != 200:
+                logging.error(f"Request gagal! Status: {response.status_code}, Response: {response.text}")
+                return None
+            try:
+                return response.json()["choices"][0]["message"]["content"]
+            except Exception as e:
+                logging.error(f"Format response tidak valid: {e}. Response: {response.text}")
+                return None
+
+        except Exception as e:
+            logging.error(f"Error saat membuat request: {e}")
+            return None
