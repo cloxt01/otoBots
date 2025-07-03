@@ -1,11 +1,9 @@
-import asyncio
+import logging
 
 from conf.config import *
 from generator.generator import *
 from processor.processor import Processor
 from sniffer.sniffer import *
-from analyzer.analyzer import *
-from processor import *
 
 if __name__ == "__main__":
     conf = loadConf()
@@ -65,15 +63,13 @@ if __name__ == "__main__":
     }
 
 
-
     sniffer = Sniffer(conf)
     asyncio.run(sniffer.run())
 
-    generator = Generator(conf, "deepseek/deepseek-r1-0528:free")
-    data = generator.generate(prompt, image=None, filePath=sniffer.logPath)
 
-    # analyzer = Analyzer(generator, sniffer)
-    # data = analyzer.analyze(prompt, image=None, filePath=sniffer.logPath)
-    print(f"DATA : \n{data}")
+    generator = Generator(conf, "deepseek/deepseek-r1-0528:free")
+    data = generator.generate(prompt, imagePath=None, filePath=sniffer.sniffer_log_path)
+
+
     processor = Processor(conf)
     processor.process(data)

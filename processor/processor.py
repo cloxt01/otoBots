@@ -20,11 +20,13 @@ class Processor:
 
             if action == "make":
                 logging.info(f"Membuat file {file_path}")
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 with open(file_path, 'w', encoding='utf-8') as f:
                     self._write_clean_json(item['full_code'], f)
 
             elif action == "modify":
                 logging.info(f"Mengubah file {file_path}")
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 with open(file_path, 'w', encoding='utf-8') as f:
                     self._write_clean_json(item['full_code'], f)
 

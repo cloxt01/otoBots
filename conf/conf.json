@@ -1,5 +1,5 @@
 {
-  "url": "https://www.tokopedia.com/sania/t-shirt-wanita-lengan-pendek-kaos-wanita-atasan-wanita-lengan-pendek-variasi-top-1729573680680830737?extParam=src%3Dshop%26whid%3D19143024&aff_unique_id=&channel=others&chain_key=",
+  "url": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
 
   "api" : {
     "domain": "gql.tokopedia.com"
@@ -11,12 +11,13 @@
   "cookie": "",
   "path" : {
     "content" : "content/",
-    "runner" : "runner/"
+    "runner" : "runner/",
+    "log": "log/"
   },
   "ai": {
     "platform": "openrouter-ai",
     "maxTokens" : 16000,
-    "apiKey": "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"
+    "apiKey": "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"
   }
 }
 

@@ -1,5 +1,7 @@
 import json
-import os, mimetypes
+import os, mimetypes, time
+from pathlib import Path
+from datetime import datetime, timedelta, timezone
 import requests
 import logging
 import base64
@@ -12,11 +14,12 @@ logging.basicConfig(
 
 class Generator:
     def __init__(self, conf, model):
+        self.log_path = conf['path']['log']
         self.conf = conf
         self.model = model
         self.max_tokens = conf['ai']['maxTokens']
         self.apiKey = self.load_apiKey(conf)
-        if not self.apiKey:
+        if not self.apiKey or self.apiKey == "":
             logging.error("API Key tidak ditemukan. Generator tidak dapat digunakan.")
 
     def load_apiKey(self, conf):
@@ -45,6 +48,20 @@ class Generator:
         if mime is None:
             mime = "application/octet-stream"
         return mime
+
+
+    def save_log(self, data):
+        Path(self.log_path).mkdir(parents=True, exist_ok=True)
+
+        wib = timezone(timedelta(hours=7))
+        now = datetime.now(wib)
+
+        filename = now.strftime("%Y-%m-%d_%H-%M-%S") + "(generator).json"
+
+        full_path = os.path.join(self.log_path, filename)
+
+        with open(full_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
 
     @staticmethod
     def encodeBase64(path):
@@ -102,13 +119,14 @@ class Generator:
                 logging.error(f"Request gagal! Status: {response.status_code}, Response: {response.text}")
                 return None
             try:
+                self.save_log(response.json())
                 res = response.json()["choices"][0]["message"]["content"]
                 res = json.loads(res)
                 return res
             except Exception as e:
                 logging.error(f"Format response tidak valid: {e}. Response: {response.text}")
                 return None
-
         except Exception as e:
             logging.error(f"Error saat membuat request: {e}")
             return None
+

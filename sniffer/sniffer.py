@@ -18,7 +18,7 @@ class Sniffer:
     def __init__(self, conf):
         self.url = conf['url']
         self.api_domain = conf['api']['domain']
-        self.logPath = None
+        self.log_path = conf['path']['log']
         self.headless = conf['browser']['headlessMode']
         self.profile_path = conf['browser']['profilePath']
         self.data_log = {}
@@ -132,15 +132,13 @@ class Sniffer:
             logging.debug(traceback.format_exc())
 
     async def run(self):
-        save_dir = "log"
         wib = timezone(timedelta(hours=7))
         now = datetime.now(wib)
-        filename = now.strftime("%Y-%m-%d_%H-%M-%S") + ".json"
-        self.logPath = os.path.join(save_dir, filename)
-
+        filename = now.strftime("%Y-%m-%d_%H-%M-%S") + "(sniffer).json"
+        self.sniffer_log_path = os.path.join(self.log_path, filename)
 
         try:
-            Path(save_dir).mkdir(parents=True, exist_ok=True)
+            Path(self.log_path).mkdir(parents=True, exist_ok=True)
             async with async_playwright() as p:
                 browser = None
                 try:
@@ -187,9 +185,9 @@ class Sniffer:
 
             try:
                 combined = list(self.data_log.values())
-                with open(self.logPath, "w", encoding="utf-8") as f:
+                with open(self.sniffer_log_path, "w", encoding="utf-8") as f:
                     json.dump(combined, f, indent=2, ensure_ascii=False)
-                logging.info(f"Log berhasil disimpan di {self.logPath}")
+                logging.info(f"Log berhasil disimpan di {self.sniffer_log_path}")
             except Exception as e:
                 logging.error(f"Gagal menyimpan log ke file: {e}")
                 logging.debug(traceback.format_exc())
