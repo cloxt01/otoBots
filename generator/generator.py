@@ -14,6 +14,7 @@ class Generator:
     def __init__(self, conf, model):
         self.conf = conf
         self.model = model
+        self.max_tokens = conf['ai']['maxTokens']
         self.apiKey = self.load_apiKey(conf)
         if not self.apiKey:
             logging.error("API Key tidak ditemukan. Generator tidak dapat digunakan.")
@@ -64,10 +65,11 @@ class Generator:
             if filePath:
                 with open(filePath, "r", encoding="utf-8") as f:
                     file_content = f.read()
-                user_content += f"\n-----------------\n{file_content}\n-----------------\n"
+                user_content += f"\n-----------------\n\n{file_content}\n\n-----------------\n"
 
             payload = {
                 "model": self.model,
+                "max_tokens": self.max_tokens,
                 "messages": [
                     {
                         "role": "system",
@@ -96,6 +98,8 @@ class Generator:
                 ]
 
             response = requests.post(url, headers=headers, json=payload)
+            logging.info("JSON : \n")
+            print(response.json())
             if response.status_code != 200:
                 logging.error(f"Request gagal! Status: {response.status_code}, Response: {response.text}")
                 return None

@@ -1,17 +1,22 @@
 {
-  "url": "https://example.com",
+  "url": "https://www.tokopedia.com/sania/t-shirt-wanita-lengan-pendek-kaos-wanita-atasan-wanita-lengan-pendek-variasi-top-1729573680680830737?extParam=src%3Dshop%26whid%3D19143024&aff_unique_id=&channel=others&chain_key=",
 
   "api" : {
-    "domain": "example.com"
+    "domain": "gql.tokopedia.com"
   },
   "browser": {
     "headlessMode": false,
     "profilePath": "C:\\Users\\MyBook Hype\\project\\gcloud\\Profiles\\2tekjd15.Cloxt00"
   },
   "cookie": "",
+  "path" : {
+    "content" : "content/",
+    "runner" : "runner/"
+  },
   "ai": {
     "platform": "openrouter-ai",
-    "apiKey": "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"
+    "maxTokens" : 16000,
+    "apiKey": "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"
   }
 }
 
