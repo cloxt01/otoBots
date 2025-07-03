@@ -9,17 +9,10 @@ from processor import *
 
 if __name__ == "__main__":
     conf = loadConf()
-
-    generator = Generator(conf, "deepseek/deepseek-r1-0528:free")
-
-    sniffer = Sniffer(conf)
-    asyncio.run(sniffer.run())
-
-    analyzer = Analyzer(generator, sniffer)
     prompt = {
         "system": """
-        Kamu diberikan sebuah direktori khusus bernama "content/". Tugasmu adalah membuat script bot flashsale otonom yang siap pakai, mulai dari membuat struktur file, menulis kode setiap file, hingga memberikan output aksi file sesuai parameter.
-        
+        Kamu diberikan sebuah direktori khusus bernama "content/". Tugasmu adalah membuat script bot flashsale otonom yang siap pakai berbahasa PYTHON, mulai dari membuat struktur file, menulis kode setiap file, hingga memberikan output aksi file sesuai parameter.
+
         Contoh parameter aksi yang dapat digunakan:
         {
             "action": "modify",
@@ -35,7 +28,7 @@ if __name__ == "__main__":
             "action": "remove",
             "file": "main.py"
         }
-        
+
         Format output yang diharapkan (JSON):
         {
           "explained": "",
@@ -47,21 +40,21 @@ if __name__ == "__main__":
             }
           ]
         }
-        
+
         Keterangan:
         - Kolom "explained" dapat diisi keterangan singkat mengenai aksi, atau dibiarkan kosong bila tidak perlu penjelasan.
         - Array "content" berisi list aksi (make/modify/remove) terhadap file sesuai kebutuhan workflow.
         - Sertakan "full_code" jika action make/modify.
-        
+
         Output HARUS disusun persis seperti format json di atas, TANPA PENJELASAN tambahan lain di luar JSON !!!.
-        
+
         Output Salah:
         Berikut struktur dan kode bot flashsale Tokopedia:
         {
             "explained":"...",
             "content":[]
         }
-        
+
         Output Benar:
         {
             "explained":"...",
@@ -70,8 +63,17 @@ if __name__ == "__main__":
         """,
         "user": "MULAI"
     }
-    data = analyzer.analyze(prompt, image=None, filePath=sniffer.logPath)
-    data = json.loads(data)
+
+
+
+    sniffer = Sniffer(conf)
+    asyncio.run(sniffer.run())
+
+    generator = Generator(conf, "deepseek/deepseek-r1-0528:free")
+    data = generator.generate(prompt, image=None, filePath=sniffer.logPath)
+
+    # analyzer = Analyzer(generator, sniffer)
+    # data = analyzer.analyze(prompt, image=None, filePath=sniffer.logPath)
     print(f"DATA : \n{data}")
     processor = Processor(conf)
     processor.process(data)

@@ -98,13 +98,13 @@ class Generator:
                 ]
 
             response = requests.post(url, headers=headers, json=payload)
-            logging.info("JSON : \n")
-            print(response.json())
             if response.status_code != 200:
                 logging.error(f"Request gagal! Status: {response.status_code}, Response: {response.text}")
                 return None
             try:
-                return response.json()["choices"][0]["message"]["content"]
+                res = response.json()["choices"][0]["message"]["content"]
+                res = json.loads(res)
+                return res
             except Exception as e:
                 logging.error(f"Format response tidak valid: {e}. Response: {response.text}")
                 return None

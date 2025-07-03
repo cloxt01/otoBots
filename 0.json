@@ -1,10 +1,13 @@
-{
-  "explained" : "",
-  "content" :[
-    {
-      "action": "modify",
-      "file": "main.py",
-      "full_code": "import ...."
-    }
-]
-}
+
+
+Traceback (most recent call last):
+File "C:\Users\MyBook Hype\project\otoBots\main.py", line 74, in <module>
+data = json.loads(data)
+File "C:\Program Files\Python313\Lib\json\__init__.py", line 346, in loads
+return _default_decoder.decode(s)
+~~~~~~~~~~~~~~~~~~~~~~~^^^
+File "C:\Program Files\Python313\Lib\json\decoder.py", line 348, in decode
+raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 31 column 1 (char 6216)
+
+C:\Users\MyBook Hype\project\otoBots>
