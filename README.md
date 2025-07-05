@@ -69,7 +69,7 @@ Berikut adalah penjelasan detail untuk setiap komponen:
 
 ## Memahami Alur Kerja untuk Konfigurasi Efektif
 
-**Penting:** OtoBot masih dalam **tahap pengembangan**. Untuk melakukan konfigurasi yang efektif melalui `conf/conf.json`, **pemahaman mendalam tentang bagaimana proyek ini bekerja dan bagaimana setiap komponen berinteraksi adalah krusial**. Tanpa konfigurasi yang tepat yang selaras dengan alur kerja internal bot, OtoBot mungkin **tidak akan beroperasi dengan baik dan bahkan dapat menimbulkan *error***.
+**Penting:** OtoBot masih dalam **tahap pengembangan**. Untuk melakukan konfigurasi yang efektif melalui `conf/conf.json`, **Butuh pemahaman mendalam tentang bagaimana proyek ini bekerja dan bagaimana setiap komponen berinteraksi adalah krusial**. Tanpa konfigurasi yang tepat yang selaras dengan alur kerja internal bot, OtoBot mungkin **tidak akan beroperasi dengan baik dan bahkan dapat menimbulkan *error***.
 
 ### Alur Kerja Operasional OtoBot
 
