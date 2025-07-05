@@ -3,7 +3,7 @@
 
 ## Pendahuluan
 
-**OtoBot** adalah otoBits versi 'open-source', sebuah sistem agen otonom yang dirancang untuk beroperasi sepenuhnya secara mandiri, tanpa memerlukan campur tangan manusia setelah konfigurasi awal. Bot ini dibangun untuk mencapai tujuan yang telah ditetapkan, menjadikannya solusi ideal untuk otomatisasi tugas yang kompleks dan berkelanjutan. Fleksibilitas dalam konfigurasinya memungkinkan adaptasi mudah terhadap berbagai skenario penggunaan.
+**OtoBot** adalah otoBits versi `open-source`, sebuah sistem agen otonom yang dirancang untuk beroperasi sepenuhnya secara mandiri, tanpa memerlukan campur tangan manusia setelah konfigurasi awal. Bot ini dibangun untuk mencapai tujuan yang telah ditetapkan, menjadikannya solusi ideal untuk otomatisasi tugas yang kompleks dan berkelanjutan. Fleksibilitas dalam konfigurasinya memungkinkan adaptasi mudah terhadap berbagai skenario penggunaan.
 
 ### Apa Itu OtoBot?
 
