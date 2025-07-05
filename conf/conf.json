@@ -1,12 +1,12 @@
 {
-  "url": "https://www.tokopedia.com/mongse/minyak-goreng-sania-1-l-43cac",
+  "url": "https://example.com",
 
   "api" : {
-    "domain": "gql.tokopedia.com"
+    "domain": "api.example.com"
   },
   "browser": {
     "headlessMode": false,
-    "profilePath": "C:\\Users\\MyBook Hype\\project\\gcloud\\Profiles\\2tekjd15.Cloxt00"
+    "profilePath": "C:\\Users\\(username)\\xxx.user"
   },
   "cookie": "",
   "path" : {
@@ -17,7 +17,7 @@
   "ai": {
     "platform": "openrouter-ai",
     "maxTokens" : 16000,
-    "apiKey": "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"
+    "apiKey": "sk-or-v1-xx"
   }
 }
 
