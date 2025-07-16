@@ -113,7 +113,6 @@ Untuk menjalankan OtoBot, Anda mungkin perlu menginstal dependensi Python dan me
     ```bash
     pip install -r requirements.txt # Asumsikan ada file requirements.txt
     ```
-    ```
 
 ---
 
