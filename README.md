@@ -57,7 +57,7 @@ Berikut adalah penjelasan detail untuk setiap komponen:
     Modul ini bertanggung jawab untuk **menjalankan file atau tugas yang telah disimpan di `/content`**. Ini menunjukkan kemampuan bot untuk tidak hanya menghasilkan data tetapi juga berinteraksi atau bertindak berdasarkan data yang telah diproses dan disimpan. Ini bisa melibatkan eksekusi skrip, peluncuran proses, atau aktivasi fungsi berdasarkan *output* yang ada.
 
 * ### `/sniffer`
-    Bagian ini berfungsi untuk **menangkap *traffic* atau lalu lintas jaringan**. `Sniffer` memungkinkan OtoBot untuk memantau, mendengarkan, atau mengintersep paket data yang mengalir dalam jaringan. Informasi yang ditangkap ini kemudian dapat diumpankan ke bagian `processor` untuk analisis lebih lanjut atau untuk memicu tindakan bot.
+    Bagian ini berfungsi untuk **menangkap *traffic* atau lalu lintas jaringan**. `Sniffer` memungkinkan OtoBot untuk memantau, mendengarkan, atau mengintersep paket data yang mengalir dalam jaringan. Informasi yang ditangkap ini kemudian dapat diumpankan ke bagian `generator` untuk analisis lebih lanjut atau untuk memicu tindakan bot.
 
 * ### `main.py`
     Ini adalah **titik masuk utama** untuk menjalankan OtoBot. Ketika Anda menginisiasi bot, Anda akan menjalankan skrip ini, yang kemudian akan mengoordinasikan semua komponen modular lainnya untuk memulai operasi bot sesuai dengan konfigurasi yang ditetapkan.
@@ -109,13 +109,10 @@ Untuk menjalankan OtoBot, Anda mungkin perlu menginstal dependensi Python dan me
     git clone [https://github.com/cloxt01/otoBots.git](https://github.com/cloxt01/otoBots.git)
     cd otoBots
     ```
-2.  **Instal Dependensi:**
+2.  **Instal Dependensi:** Utk saat ini belum ada `requirements.txt`
     ```bash
     pip install -r requirements.txt # Asumsikan ada file requirements.txt
     ```
-    *Jika tidak ada `requirements.txt`, Anda perlu menginstal setiap pustaka secara manual:*
-    ```bash
-    pip install [nama-pustaka-1] [nama-pustaka-2] ...
     ```
 
 ---
